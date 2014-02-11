@@ -84,11 +84,11 @@ namespace AlsongBroadcasting
 			// aapt resource value: 0x7f050002
 			public const int ad = 2131034114;
 			
-			// aapt resource value: 0x7f050010
-			public const int button_Back = 2131034128;
+			// aapt resource value: 0x7f050011
+			public const int button_Back = 2131034129;
 			
-			// aapt resource value: 0x7f05000f
-			public const int button_PlayAndStop = 2131034127;
+			// aapt resource value: 0x7f050010
+			public const int button_PlayAndStop = 2131034128;
 			
 			// aapt resource value: 0x7f050000
 			public const int linearLayout1 = 2131034112;
@@ -99,14 +99,17 @@ namespace AlsongBroadcasting
 			// aapt resource value: 0x7f050008
 			public const int myButton = 2131034120;
 			
-			// aapt resource value: 0x7f05000e
-			public const int relativeLayout1 = 2131034126;
+			// aapt resource value: 0x7f05000f
+			public const int relativeLayout1 = 2131034127;
 			
 			// aapt resource value: 0x7f05000c
-			public const int textView_Broadcasting = 2131034124;
+			public const int textView1 = 2131034124;
 			
 			// aapt resource value: 0x7f05000d
-			public const int textView_Title = 2131034125;
+			public const int textView_Broadcasting = 2131034125;
+			
+			// aapt resource value: 0x7f05000e
+			public const int textView_Title = 2131034126;
 			
 			// aapt resource value: 0x7f050007
 			public const int webView1 = 2131034119;

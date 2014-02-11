@@ -77,9 +77,22 @@ namespace AlsongBroadcasting
 
 
 		private void initializeUIElements() {
+			string strTitle = null;
 
-			FindViewById<TextView>(Resource.Id.textView_Broadcasting).Text = bi.Title;
+			if (bi.RealTitle.Count > 0) {
+				foreach (string tmp in bi.RealTitle) {
+					strTitle += tmp + "  ";
+				}
+			} else {
+				strTitle = bi.Title;
+			}
+
+			Console.WriteLine ("---------------------" + strTitle);
+
+			FindViewById<TextView>(Resource.Id.textView_Broadcasting).Text = strTitle;
+			FindViewById<TextView>(Resource.Id.textView_Broadcasting).Selected = true;
 			FindViewById<TextView>(Resource.Id.textView_Title).Text = bi.URL;
+			FindViewById<TextView>(Resource.Id.textView_Title).Selected = true;
 
 			buttonPlayAndStop = FindViewById<Button>(Resource.Id.button_PlayAndStop);
 			buttonBack = FindViewById<Button> (Resource.Id.button_Back);
@@ -99,8 +112,10 @@ namespace AlsongBroadcasting
 			};
 
 			buttonBack.Click += (object sender, EventArgs e) => {
-				//Intent intent = new Intent(this, typeof(
-				Finish();
+				Intent intent = new Intent(this, typeof(BroadcastingList));
+				//Finish();
+				intent.PutExtra ("BroadcastingInfo", bi);
+				StartActivity (intent);
 			};
 		}
 
@@ -150,6 +165,11 @@ namespace AlsongBroadcasting
 
 			player.Error += (object sender, MediaPlayer.ErrorEventArgs e) => {
 				Console.WriteLine(e.What);
+				if (e.Extra == -1004)
+				{
+					Console.WriteLine("SetDataSource URL : " + bi.URL);
+
+				}
 				if(e.What == MediaError.Unknown)
 				{
 					Console.WriteLine("SetDataSource URL : " + bi.RealURL[++m_nIndex]);
@@ -198,6 +218,8 @@ namespace AlsongBroadcasting
 		{
 			// Destroy the AdView.
 			adView.Destroy();
+
+			bi = null;
 
 			base.OnDestroy ();
 		}

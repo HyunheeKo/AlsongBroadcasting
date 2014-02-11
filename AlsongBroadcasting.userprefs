@@ -1,24 +1,27 @@
-﻿<Properties>
+﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="AlsongBroadcasting\BroadcastingList.cs" Line="2" Column="34" />
-      <File FileName="AlsongBroadcasting\HttpControl.cs" Line="1" Column="1" />
-      <File FileName="AlsongBroadcasting\Playing.cs" Line="1" Column="1" />
-      <File FileName="AlsongBroadcasting\BroadcastingInfo.cs" Line="1" Column="1" />
-      <File FileName="AlsongBroadcasting\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="AlsongBroadcasting\BroadcastingList.cs" Line="75" Column="4" />
+      <File FileName="AlsongBroadcasting\CustomAdapter.cs" Line="16" Column="3" />
+      <File FileName="AlsongBroadcasting\Playing.cs" Line="152" Column="5" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="AlsongBroadcasting" expanded="True" selected="True">
+            <Node name="Resources" expanded="True">
+              <Node name="drawable" expanded="True" />
+              <Node name="layout" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="E:\My Project\Project_Alsong_Broadcasting\Xamarin Project\AlsongBroadcasting\AlsongBroadcasting\HttpControl.cs" line="187" column="1" />
-      <Breakpoint file="E:\My Project\Project_Alsong_Broadcasting\Xamarin Project\AlsongBroadcasting\AlsongBroadcasting\Playing.cs" line="112" column="1" />
-      <Breakpoint file="E:\My Project\Project_Alsong_Broadcasting\Xamarin Project\AlsongBroadcasting\AlsongBroadcasting\HttpControl.cs" line="163" column="1" />
-      <Breakpoint file="E:\My Project\Project_Alsong_Broadcasting\Xamarin Project\AlsongBroadcasting\AlsongBroadcasting\HttpControl.cs" line="213" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="AlsongBroadcasting\HttpControl.cs" line="192" offsetX="364" offsetY="3247" expression="bi.RealURL" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.AlsongBroadcasting MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="42f6d90bcf14bf87" />
-</Properties
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AlsongBroadcasting MonoForAntroid.PreferredDevice="5.1in WVGA" AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredTheme="Theme.NoTitleBar" />
+</Properties>
