@@ -1,27 +1,16 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlsongBroadcasting\Playing.cs">
     <Files>
-      <File FileName="AlsongBroadcasting\BroadcastingList.cs" Line="75" Column="4" />
-      <File FileName="AlsongBroadcasting\CustomAdapter.cs" Line="16" Column="3" />
-      <File FileName="AlsongBroadcasting\Playing.cs" Line="152" Column="5" />
+      <File FileName="AlsongBroadcasting\BroadcastingList.cs" Line="1" Column="1" />
+      <File FileName="AlsongBroadcasting\CustomAdapter.cs" Line="1" Column="1" />
+      <File FileName="AlsongBroadcasting\Playing.cs" Line="1" Column="1" />
+      <File FileName="AlsongBroadcasting\Properties\AndroidManifest.xml" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="AlsongBroadcasting" expanded="True" selected="True">
-            <Node name="Resources" expanded="True">
-              <Node name="drawable" expanded="True" />
-              <Node name="layout" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AlsongBroadcasting MonoForAntroid.PreferredDevice="5.1in WVGA" AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredTheme="Theme.NoTitleBar" />
+  <MonoDevelop.Ide.ItemProperties.AlsongBroadcasting MonoForAntroid.PreferredDevice="5.1in WVGA" MonoForAntroid.PreferredTheme="Theme.NoTitleBar" />
 </Properties>
